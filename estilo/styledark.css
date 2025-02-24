@@ -5,11 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --brancopadrao: #6fab76;
+    --brancopadrao: #000000;
     --verdeclarin: #3ddc84;
     --verdeclaro: #2fa866;
     --verde: #124628;
-    --verdeescuro: #063d1e; 
+    --verdeescuro: #ffffff; 
     --branco: white;
 
     --fonte-padrão: Arial, verdana, helvetica, sans-serif;
@@ -30,7 +30,7 @@ picture#android > img {
 }
 
 body {
-    background-color: var(--brancopadrao);
+    background-color: black;
     font-family: var(--fonte-padrão);
 }
 
@@ -43,22 +43,22 @@ main p {
 }
 
 main a {
-    color: var(--verde);
+    color: #70b890;
     font-weight: bold;
-    background-color: #84d0a6;
+    background-color: #0d4225;
     padding: 3px 6px;
     border-radius: 8px;
 }
 
 main a:hover {
     text-decoration: underline;
-    color: var(--verdeescuro);
+    color: #b8e2cc;
 }
 
 main strong {
-    color: var(--verde);
+    color: #a1ffcb ;
     font-weight: bold;
-    background-color: #83e1ad;
+    background-color: #00853c;
     padding: 3px 6px;
     border-radius: 8px;
 }
@@ -67,7 +67,7 @@ header {
     background-color: var(--verde);
     min-height: 150px;
     padding-top: 40px;
-    background-image: linear-gradient(to bottom, #438f62, #143d28);
+    background-image: linear-gradient(to bottom, #262726, #132c1e);
 }
 
 header > picture > img {
@@ -83,7 +83,7 @@ header > h1 {
 }
 
 header > p {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: var(--fonte-em-destaque);
     font-size: 1.2em;
     max-width: 300px;
@@ -95,24 +95,30 @@ header > p {
 }
 
 main {
-    background-color: white;
+    background-color: #1f1f1f;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     margin-top: 30px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(28, 28, 28, 0.5);
     border-radius: 10px;
     padding: 30px;
     padding-bottom: 5px;
     margin-bottom: 30px;
 }
 
+article {
+    background-color: #1f1f1f;
+}
+
+
 article > p {
     line-height: 32px;
+    color: white;
 }
 
 div.video {
-    background-color: var(--verde);
+    background-color: #293d31;
     margin: 0px -20px 30px -20px;
     padding: 20px;
     position: relative;
@@ -141,18 +147,18 @@ picture > img {
 }
 
 .cabecalho {
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 nav {
-    background-color: #143d28;
+    background-color: #132c1e;
     text-align: center;
     padding: 10px;
 } 
 
 nav > a {
-    color: #dbdbdb;
+    color: #949494;
     padding: 10px;
     text-decoration: none;
 }
@@ -160,7 +166,7 @@ nav > a {
 nav > a:hover {
     text-decoration : underline;
     color: white;
-    background-color: #368057;
+    background-color: #556a5e;
     transition: linear .3s;
     border-radius: 12px;
 }
@@ -190,15 +196,15 @@ main img.pequena {
 }
 
 aside {
-    background-color: var(--verdeclaro);
+    background-color: #0f0f0f;
     padding: 10px;
     border-radius: 10px;
     color: white;
-    box-shadow: 2px 2px 6px rgba(150, 150, 150, 0.525);
+    box-shadow: 2px 2px 6px rgba(38, 38, 38, 0.669);
 }
 
 aside h3 {
-    background-color: #1a5c37;
+    background-color: #272727;
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
@@ -212,21 +218,21 @@ aside > ul {
 
 aside > p strong {
     color: rgb(255, 255, 255);
-    background-color: #35ff89b8;
+    background-color: #00712f;
 }
 
 aside > p > a {
-    background-color: #87cfa8;
-    color: white;
+    background-color: #1f4d34;
+    color: rgb(255, 255, 255);
 }
 
 footer {
-    background-color: var(--verdeescuro);
+    background-color: #1f1f1f;
     color: white;
     padding: 10px;
     text-align: center;
 }
 
 footer > p > a {
-    color: #3ddc84;
+    color: #559a74;
 }
