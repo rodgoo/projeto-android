@@ -5,10 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --brancopadrao: #a0cca5;
+    --brancopadrao: #6fab76;
     --verdeclarin: #3ddc84;
     --verdeclaro: #2fa866;
-    --verde: #1a5c37;
+    --verde: #124628;
     --verdeescuro: #063d1e; 
     --branco: white;
 
@@ -20,6 +20,13 @@
 * {
     margin: 0px;
     padding: 0px;
+}
+
+picture#android > img {
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin: auto;
 }
 
 body {
@@ -38,9 +45,9 @@ main p {
 main a {
     color: var(--verde);
     font-weight: bold;
-    background-color: var(--brancopadrao);
-    padding: 2px 6px;
-    border-radius: 3px;
+    background-color: #84d0a6;
+    padding: 3px 6px;
+    border-radius: 8px;
 }
 
 main a:hover {
@@ -52,8 +59,8 @@ main strong {
     color: var(--verde);
     font-weight: bold;
     background-color: #83e1ad;
-    padding: 2px 6px;
-    border-radius: 3px;
+    padding: 3px 6px;
+    border-radius: 8px;
 }
 
 header {
@@ -80,9 +87,11 @@ header > p {
     font-family: var(--fonte-em-destaque);
     font-size: 1.2em;
     max-width: 300px;
-    padding: 10px 0px 10px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: auto;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.500) 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.500);
+    padding-bottom: 20px;
 }
 
 main {
@@ -91,10 +100,15 @@ main {
     max-width: 1000px;
     margin: auto;
     margin-top: 30px;
-    padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px;
     padding: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+article > p {
+    line-height: 32px;
 }
 
 div.video {
@@ -102,7 +116,7 @@ div.video {
     margin: 0px -20px 30px -20px;
     padding: 20px;
     position: relative;
-    padding-bottom: 59%;
+    padding-bottom: 60%;
 }
 
 div.video > iframe {
@@ -146,8 +160,8 @@ nav > a:hover {
     text-decoration : underline;
     color: white;
     background-color: var(--verdeclaro);
-    transition: ease-out 0.3s;
-    border-radius: 10px;
+    transition: linear .3s;
+    border-radius: 20px;
 }
 
 h1, h2 {
@@ -159,7 +173,8 @@ main h2 {
     font-family: var(--fonte-do-android);
     font-size: 1.4em;
     background-image: linear-gradient(to right, var(--brancopadrao), transparent); 
-    text-indent: 4px;
+    text-indent: 10px;
+    border-radius: 18px;
 }
 
 main img {
@@ -191,6 +206,16 @@ aside > ul {
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2714\00A0\00A0';
+}
+
+aside > p strong {
+    color: rgb(255, 255, 255);
+    background-color: #35ff89b8;
+}
+
+aside > p > a {
+    background-color: #87cfa8;
+    color: white;
 }
 
 footer {
