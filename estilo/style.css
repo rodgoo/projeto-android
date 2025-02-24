@@ -173,8 +173,9 @@ main h2 {
     font-family: var(--fonte-do-android);
     font-size: 1.4em;
     background-image: linear-gradient(to right, var(--brancopadrao), transparent); 
-    text-indent: 10px;
+    text-indent: 14px;
     border-radius: 18px;
+    padding-left: 12px;
 }
 
 main img {
